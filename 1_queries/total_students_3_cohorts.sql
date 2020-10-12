@@ -12,4 +12,4 @@ WHERE end_date is NULL;
 
 
 SELECT * FROM students WHERE
-end_date NOT NULL AND 
+end_date IS NOT NULL AND github IS NULL; 
